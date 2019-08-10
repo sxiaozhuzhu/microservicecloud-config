@@ -7,13 +7,13 @@ spring:
   profiles:
     active: 
     - dev  #开发环境
- application: 
+  application:
     name: microservicecloud-config-moltres-dev
 ---
 spring:
   profiles:
     active: 
     - test   #测试环境
- application: 
+  application: 
     name: microservicecloud-config-moltres-test
 #  请保存为UTF-8格式
