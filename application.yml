@@ -1,18 +1,18 @@
 <<<<<<< HEAD
 ﻿spring:
- profiles:
+   profiles:
    active:
    - dev
 ---
 spring:
- profiles: dev    
- application: 
-  name: microservicecloud-config-moltres-dev
+  profiles: dev    
+  application: 
+    name: microservicecloud-config-moltres-dev
 ---
 spring:
- profiles: test 
- application: 
-  name: microservicecloud-config-moltres-test
+  profiles: test 
+  application: 
+    name: microservicecloud-config-moltres-test
 #  请保存为UTF-8格式
 =======
 >>>>>>> cc6a8480729a5a132668d6ee8b988307883294c7
